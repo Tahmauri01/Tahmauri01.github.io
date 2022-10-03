@@ -20,5 +20,26 @@ a {
 a:hover{
     text-decoration: underline;
     background-color: #e53170;
-    color: white;
+    color: #ffffff;
+}
+
+#navbar{
+    background-color: #ff8906;
+    color: #e53170;
+}
+
+#navbar > a{
+    color: #e53170;
+}
+
+#navbar > a:hover{
+    text-decoration: underline;
+    background-color: #e53170;
+    color: #ffffff;
+}
+
+#navbar > a{
+    color: #e53170;
+    padding: 8px;
+    display: inline-block;
 }
