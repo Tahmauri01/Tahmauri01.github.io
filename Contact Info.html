@@ -30,6 +30,28 @@
     ">GitHub </a>/
     <a href="https://docs.google.com/document/d/146IPZFIHYgCOzQXNCmCgMUVHCu8NIMRtbsvhDM1rCHw/edit?usp=sharing
     ">Resume</a>
+
+    <p>-------------------------------------------------------------------------</p>
+
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+        <label for="">Name: </label>
+        <input type="text" name="Name">
+        <br>
+        <label for="">Email: </label>
+        <input type="text" name="Email">
+        <br>
+        <label for="">Phone Number: </label>
+        <input type="text" name="Phone Number">
+        <br>
+        <label for="">Company: </label>
+        <input type="text" name="Company">
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <input type="hidden">
+        
+        <input name="send-to" value="tbobo@brooklynsteamcenter.org" hidden>
+    </form>
 </main>
  <hr>
 </body>

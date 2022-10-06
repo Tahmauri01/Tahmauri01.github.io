@@ -52,3 +52,61 @@ a:hover{
 .Center{
     text-align: center;
 }
+
+input[type=submit]{
+    background-color: grey;
+    border: 2px solid #ff8906;
+    border-radius: 4px;
+    margin: 4px 4px;
+    border-radius: 4px;
+    margin: 4px 4px;
+    width: 15%;
+    height: 35px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=submit]:hover{
+    background-color: #e53170;
+    border: 2px solid #ff8906;
+    border-radius: 4px;
+}
+
+input[type=reset]{
+    background-color: grey;
+    border: 2px solid #ff8906;
+    border-radius: 4px;
+    margin: 4px 4px;
+    border-radius: 4px;
+    margin: 4px 4px;
+    width: 15%;
+    height: 35px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=reset]:hover{
+    background-color: #e53170;
+    border: 2px solid #ff8906;
+    border-radius: 4px;
+}
+
+input[type=text]{
+    background-color: gray;
+    border: 2px solid #ff8906;
+    border-radius: 4px;
+    margin: 4px 4px;
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=text]:hover{
+    background-color: #e53170;
+    border: 2px solid #ff8906;
+    border-radius: 4px;
+}
