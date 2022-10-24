@@ -59,6 +59,15 @@ a:hover{
     text-align: center;
 }
 
+#Text{
+    background-color: black;
+    margin-top: 100px;
+}
+
+#Text2{
+    margin-top: 150px;
+}
+
 .Center{
     text-align: center;
     position: absolute;
