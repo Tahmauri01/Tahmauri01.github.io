@@ -59,13 +59,39 @@ a:hover{
     text-align: center;
 }
 
-#Text{
+#TextContact{
     background-color: black;
     margin-top: 100px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    border-radius: 4px;
+    border: 2px solid white;
 }
 
-#Text2{
-    margin-top: 150px;
+#TextProjects{
+    margin-top: 200px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+#TextAbout{
+    padding-left: 5%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+#TextIndex{
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 4px;
+    border: 2px solid white;
 }
 
 .Center{
@@ -73,6 +99,7 @@ a:hover{
     position: absolute;
     padding-left: 525px;
     padding-top: 245px;
+    padding-bottom: 125px;
 }
 
 input[type=submit]{
